@@ -1,21 +1,13 @@
 package com.bignerdranch.android.criminalintent;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.io.Writer;
-
-import java.util.ArrayList;
-
+import android.content.Context;
+import com.google.gson.Gson;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONTokener;
 
-import android.content.Context;
+import java.io.*;
+import java.util.ArrayList;
 
 public class CriminalIntentJSONSerializer {
 
@@ -29,6 +21,7 @@ public class CriminalIntentJSONSerializer {
 
     public ArrayList<Crime> loadCrimes() throws IOException, JSONException {
         ArrayList<Crime> crimes = new ArrayList<Crime>();
+        Gson gson = new Gson();
         BufferedReader reader = null;
         try {
             // open and read the file into a StringBuilder
@@ -44,7 +37,7 @@ public class CriminalIntentJSONSerializer {
             JSONArray array = (JSONArray) new JSONTokener(jsonString.toString()).nextValue();
             // build the array of crimes from JSONObjects
             for (int i = 0; i < array.length(); i++) {
-                crimes.add(new Crime(array.getJSONObject(i)));
+                crimes.add(gson.fromJson(array.get(i).toString(), Crime.class));
             }
         } catch (FileNotFoundException e) {
             // we will ignore this one, since it happens when we start fresh
@@ -57,9 +50,11 @@ public class CriminalIntentJSONSerializer {
 
     public void saveCrimes(ArrayList<Crime> crimes) throws JSONException, IOException {
         // build an array in JSON
+        Gson gson = new Gson();
+
         JSONArray array = new JSONArray();
         for (Crime c : crimes)
-            array.put(c.toJSON());
+            array.put(gson.toJson(c));
 
         // write the file to disk
         Writer writer = null;
