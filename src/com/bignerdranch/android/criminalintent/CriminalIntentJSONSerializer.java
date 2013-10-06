@@ -32,7 +32,7 @@ public class CriminalIntentJSONSerializer {
             dir.mkdirs();
             File file = new File(dir, mFilename);
 
-            InputStream in = new FileInputStream(file);//mContext.openFileInput(mFilename);
+            InputStream in = new FileInputStream(file);
             reader = new BufferedReader(new InputStreamReader(in));
             StringBuilder jsonString = new StringBuilder();
             String line = null;
