@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2064cd03-e720-4c25-853e-3ea86fd06d4e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bignerdranch/android/criminalintent/Crime.java" afterPath="$PROJECT_DIR$/src/com/bignerdranch/android/criminalintent/Crime.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bignerdranch/android/criminalintent/CriminalIntentJSONSerializer.java" afterPath="$PROJECT_DIR$/src/com/bignerdranch/android/criminalintent/CriminalIntentJSONSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GsonExample.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2064cd03-e720-4c25-853e-3ea86fd06d4e" time="1381019509916" ignored="false" />
+    <file path="/Dummy.txt" changelist="2064cd03-e720-4c25-853e-3ea86fd06d4e" time="1381020510753" ignored="false" />
     <file path="/fragment.java" changelist="2064cd03-e720-4c25-853e-3ea86fd06d4e" time="1381019549801" ignored="false" />
-    <file path="/CriminalIntentJSONSerializer.java" changelist="2064cd03-e720-4c25-853e-3ea86fd06d4e" time="1381019851670" ignored="false" />
+    <file path="/CriminalIntentJSONSerializer.java" changelist="2064cd03-e720-4c25-853e-3ea86fd06d4e" time="1381020997099" ignored="false" />
+    <file path="/Crime.java" changelist="2064cd03-e720-4c25-853e-3ea86fd06d4e" time="1381020857479" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,19 @@
       <file leaf-file-name="CriminalIntentJSONSerializer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/bignerdranch/android/criminalintent/CriminalIntentJSONSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="64" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.6572935">
+            <state line="103" column="7" selection-start="3424" selection-end="3424" vertical-scroll-proportion="0.7891037">
+              <folding>
+                <element signature="e#681#688#0" expanded="true" />
+                <element signature="e#2749#2756#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Crime.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bignerdranch/android/criminalintent/Crime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -370,7 +383,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -457,17 +470,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/gson-2.2.4.jar!/com/google/gson/Gson.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="18" selection-start="4239" selection-end="4239" vertical-scroll-proportion="0.34839925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bignerdranch/android/criminalintent/Crime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="1" selection-start="839" selection-end="839" vertical-scroll-proportion="0.7891037">
+        <state line="6" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bignerdranch/android/criminalintent/CriminalIntentJSONSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="64" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.6572935">
-          <folding />
+        <state line="103" column="7" selection-start="3424" selection-end="3424" vertical-scroll-proportion="0.7891037">
+          <folding>
+            <element signature="e#681#688#0" expanded="true" />
+            <element signature="e#2749#2756#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
